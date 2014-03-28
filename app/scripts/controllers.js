@@ -1,4 +1,5 @@
-angular.module('starter.controllers', [])
+'use strict';
+angular.module('<%= appName %>.controllers', [])
 
 .controller('AppCtrl', function($scope) {
 })
@@ -15,4 +16,4 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
-})
+});

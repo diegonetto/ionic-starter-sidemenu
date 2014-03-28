@@ -27,37 +27,37 @@ angular.module('<%= appName %>', ['ionic', '<%= appName %>.controllers'])
     })
 
     .state('app.search', {
-      url: "/search",
+      url: '/search',
       views: {
         'menuContent' :{
-          templateUrl: "templates/search.html"
+          templateUrl: 'templates/search.html'
         }
       }
     })
 
     .state('app.browse', {
-      url: "/browse",
+      url: '/browse',
       views: {
         'menuContent' :{
-          templateUrl: "templates/browse.html"
+          templateUrl: 'templates/browse.html'
         }
       }
     })
     .state('app.playlists', {
-      url: "/playlists",
+      url: '/playlists',
       views: {
         'menuContent' :{
-          templateUrl: "templates/playlists.html",
+          templateUrl: 'templates/playlists.html',
           controller: 'PlaylistsCtrl'
         }
       }
     })
 
     .state('app.single', {
-      url: "/playlists/:playlistId",
+      url: '/playlists/:playlistId',
       views: {
         'menuContent' :{
-          templateUrl: "templates/playlist.html",
+          templateUrl: 'templates/playlist.html',
           controller: 'PlaylistCtrl'
         }
       }

@@ -1,7 +1,7 @@
 'use strict';
 angular.module('<%= appName %>.controllers', [])
 
-.controller('AppCtrl', function($scope) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
   // Form data for the login modal
   $scope.loginData = {};
 
